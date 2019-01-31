@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"
+                tools:context="com.example.bibdev.sejarahlombok.AlbumActivity">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Struktur dan Sistem Masyarakat Sasak"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:textStyle="italic|bold" />
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="130dp"
+                android:typeface="sans"
+                android:gravity="center"
+                android:background="#b1878484"
+                android:textColor="#000"
+                android:justificationMode="none"
+                android:text="  Suku Sasak pada masa lalu secara sosial-politik, digolongkan dalam dua tingkatan sosial utama, yaitu golongan bangsawan yang disebut perwangsa dan bangsa Amaatau jajar karang sebagai golongan masyarakat kebanyakan.
+Golongan perwangsa ini terbagi lagi atas dua tingkatan, yaitu bangsawan tingi (perwangsa) sebagai penguasa dan bangsawan rendahan (triwangsa). Bangsawan penguasa (perwangsa) umumnya menggunakan gelar datu. Selain itu mereka juga disebut Raden untuk kaum laki-laki dan Denda untuk perempuan.
+Seorang Raden jika menjadi penguasa maka berhak memakai gelar datu. Perubahan gelar dan pengangkatan seorang bangsawan penguasa itu umumnya dilakukan melalui serangkaian upacara kerajaan.
+Bangsawan rendahan (triwangsa) biasanya menggunakan gelar lalu untuk para lelakinya dan baiq untuk kaum perempuan. Tingkatan terakhir disebut jajar karang atau masyarakat biasa.Panggilan untuk kaum laki-laki di masyarakat umum ini adalah loq dan untuk perempuan adalah le.
+Golongan bangsawan baik perwangsa dan triwangsa disebut sebagai permenak. Para permenak ini biasanya menguasai sejumlah sumber daya dan juga tanah. Ketika Kerajaan Bali dinasti Karangasem berkuasa di Pulau Lombok, mereka yang disebut permenak kehilangan haknya dan hanya menduduki jabatan pembekel (pejabat pembantu kerajaan).
+Masyarakat Sasak sangat menghormati golongan permenak baik berdasarkan ikatan tradisi dan atau berdasarkan ikatan kerajaan. Di sejumlah desa, seperti wilayah Praya dan Sakra, terdapat hak tanah perdikan (wilayah pemberian kerajaan yang bebas dari kewajiban pajak).
+Setiap penduduk mempunyai kewajiban apati getih, yaitu kewajiban untuk membela wilayahnya dan ikut serta dalam peperangan. Kepada mereka yang berjasa, Kerajaan akan memberikan beberapa imbalan, salah satunya adalah dijadikan wilayah perdikan.
+Landasan sistem sosial masyarakat dalam kehidupan suku Sasak umumnya mengikuti garis keturunan dari pihak laki-laki (patrilineal). Akan tetapi, dalam beberapa kasus hubungan masyarakatnnya terkesan bilateral atau parental (garis keturunan diperhitungkan dari kedua belah pihak; ayah dan ibu).
+Pola kekerabatan yang dalam tradisi suku sasak disebut Wiring Kadang ini mengatur hak dan kewajiban anggota masyarakatnya. Unsur-unsur kekerabatan ini meliputi Kakek, Ayah, Paman (saudara laki-laki ayah), Sepupu (anak lelaki saudara lelaki ayah), dan anak-anak mereka.
+Wiring Kadang juga mengatur tanggung jawab mereka terhadap masalah-masalah keluarga; pernikahan, masalah warisan dan hak-kewajiban mereka. Harta warisan disebut pustaka dapat berbentuk tanah, rumah, dan juga benda-benda lainnya yang merupakan peninggalan leluhur. Orang-orang Bali memiliki pola kekerabatan yang hampir sama disebut purusa dengan harta waris yang disebut pusaka.
+"
+                android:layout_height="wrap_content"/>
+    </ScrollView>
+
+</RelativeLayout>

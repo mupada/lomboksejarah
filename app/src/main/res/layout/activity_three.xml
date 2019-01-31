@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ThreeActivity">
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adat Sasak"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:textStyle="italic|bold" />
+    <ScrollView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_marginTop="100dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:background="#b1878484"
+                android:text="Dari sejarahnya yang panjang, Suku Sasak bisa saja diidentifikasikan sebagai budaya yang banyak mendapat pengaruh dari Jawa dan Bali. Pun sejarah mencatatnya demikian, kenyataannya kebudayaan Suku Sasak memiliki corak dan ciri budaya yang khas, asli dan sangat mapan hingga berbeda dengan budaya suku-suku lainnya di Nusantara.
+Kini, Sasak bahkan dikenal bukan hanya sebagai kelompok masyarakat tapi juga merupakan entitas budaya yang melambangkan kekayaan tradisi Bangsa Indonesia di mata dunia.
+Berikut beberapa seni dan tradisi yang cukup terkenal dari suku Sasak:
+
+Bau Nyale.
+ Nyale adalah sejenis binatang laut, termasuk jenis cacing (anelida) yang berkembang biak dengan bertelur. Dalam alam kepercaan Suku Sasak, Nyalebukan sekedar binatang, beberapa legenda dari Suku ini yang menceritakan tentang putri yang menjelma menjadi Nyale.
+Lainnya menyatakan bahwa Nyale adalah binatang anugerah, bahkan keberadaannya dihubungkan dengan kesuburan dan keselamatan.
+Ritual Bau Nyale atau menangkap nyale digelar setahun sekali. Biasanya pada tanggal 19 atau 20 pada bulan ke-10 atau ke-11 menurut perhitungan tahun suku Sasak, kurang lebih berkisar antara bulan Februari atau Maret.
+Rebo Bontong. Suku Sasak percaya bahwa hari Rebo Bontong merupakan hari puncak terjadi bencana dan atau penyakit (Bala) sehingga bagi mereka sesuatu yang tabu jika memulai pekerjaan tepat pada hari Rebo Bontong. Kata Rebo dan juga Bontong kurang lebih artinya “putus” atau “pemutus”.
+Upacara Rebo Bontong dimaksudkan untuk dapat menghindari bencana atau penyakit. Upacara ini digelar setahun sekali yaitu pada hari Rabu di minggu terakhir bulan Safar dalam kalender Hijriah.
+Bebubus Batu. Dari kata “bubus”, yaitu sejenis ramuan obat berbahan dasar beras yang dicampur berbagai jenis tanaman, dan dari kata batu yang merujuk kepada batu tempat melaksanakan upacara.
+Bebubus Batu adalah upacara yang digelar untuk meminta berkah kepada sang Kuasa. Upacara ini dilaksanakan tiap tahun, dipimpin oleh Penghulu (pemangku adat) dan Kiai (ahli agama). Masyarakat ramai-ramai mengenakan pakaian adat serta membawa dulang, sesajen dari hasil bumi.
+Sabuk Beleq Merujuk kepada sebuah pustaka sabuk yang besar (Beleq) bahkan panjangnya mencapai 25 meter, masyarakat Lombok khususnya mereka yang berada di wilayah Lenek Daya akan menggelar upacara pada tanggal 12 Rabiul Awal tahun Hijriah.
+Tradisi pengeluaran Sabuk Bleeq ini mereka awali dengan mengusung Sabuk Beleqmengelilingi kampung diiringi dengan tetabuhan gendang beleq. Ritual upacara kemudian dilanjutkan dengan menggelar praja mulud hingga diakhiri dengan memberi makan berbagai jenis makhluk.
+Upacara ini dilakukan untuk mempererat ikatan persaudaraan, persatuan dan gotong royong antar masyarakat, serta cinta kasih di antara makhluk Tuhan.
+Lomba Memaos. Memaos kurang lebih artinya membaca dan orang yang membaca di sebut pepaos. Lomba memaos adalah lomba untuk membaca lontar yang menceritakan hikayat dari leluhur mereka.
+Tujuan lomba pembacaan cerita ini adalah agar generasi selanjutnya dapat mengetahui kebudayaan dan sejarah masa lalu. Selain itu, Lomba ini juga dapat berfungsi sebagai regenerasi nilai-nilai sosia, budaya, dan tradisi pada generasi penerus. Satu kelompok pepaos biasanya terdiri dari 3-4 orang; pembaca, pejangga, dan pendukung vokal.
+Tandang Mendet. Tandang Mendet adalah tarian perang Suku Sasak. Konon Tarian ini telah ada sejak zaman Kerajaan Selaparang. Tarian yang menggambarkan keperkasaan dan perjuangan ini dimainkan oleh belasan orang dengan berpakaian dan membawa alat-alat keprajuritan lenggap; kelewang (pedang), tameng, tombak. Tarian diiringi dengan hentakan gendang beleq serta pembacaan syair-syair perjuangan.
+Peresean. Kadang ada yang menulisnya Periseian dan atau Presean adalah seni bela diri yang dulu digunakan oleh lingkungan kerajaan. Peresean awalnya adalah latihan pedang dan perisai bagi seorang prajurit. Pada perkembangannya, latihan ini menjadi pertunjukan rakyat untuk menguji ketangkasan dan “keberanian”.
+
+ “Tarung Peresean Tempo Doeloe”
+
+Senjata yang digunakan adalah sebilah rotan yang dilapisi pecahan kaca. Dan untuk menangkis serangan, pepadu (pemain) biasanya membawa sebuah perisai (ende) yan terbuat dari kayu berlapis kulit lembu atau kerbau. Setiap pepadu memakai ikat kepala dan mengenakan kain panjang.
+Festival peresean diadakan setiap tahun terutama di Kabupaten Lombok Timur yang akan diikuti oleh pepadu dari seluruh Pulau Lombok.
+Begasingan. Permainan rakyat yang mempunyai unsur seni dan olahraga, bahkan termasuk permainan tradisional yang tergolong tua di masyarakat Sasak. Permainan tradisional ini juga dikenal di beberapa wilayah lain di Indonesia.
+Hanya saja, Gasing orang sasak ini berbeda baik bentuk maupun aturan permainannya. Gasing besar, mereka namai pemantok, digunakan untuk menghantam gasing pengorong atau pelepas yang ukurannya lebih kecil.
+Begasingan berasal dari kata gang yang artinya “lokasi”, dan dari kata sing artinya “suara”. Permainan tradisional ini tak mengenal umur dan tempat, bisa siapa saja, bisa di mana saja.
+Slober. Alat musik tradisional Lombok yang cukup tua, unik, dan bersahaja. Slober dibuat dari pelepah enau dan ketika dimainkan alat musik ini biasanya didukung dengan alat musik lainnya seperti gendang, gambus, seruling, dll. Kesenian yang masih dapat anda saksikan hingga saat ini, sangat asyik jika dimainkan ketika malam bulan purnama.
+Gendang Beleq. Satu dari kesenian Lombok yang mendunia. Gendang Beleqmerupakan pertunjukan dengan alat perkusi gendang berukuran besar (Beleq) sebagai ensembel utamanya. Komposisi musiknya dapat dimainkan dengan posisi duduk, berdiri, dan berjalan untuk mengarak iring-iringan.
+Ada dua jenis gendang beleq yang berfungsi sebagai pembawa dinamika yaitu gendang laki-laki atau gendang mama dan gendang nina atau gendang perempuan).
+Sebagai pembawa melodi adalah gendang kodeq atau gendang kecil. Sedangkan sebagai alat ritmis adalah dua buah reog, 6-8 buah perembak kodeq, sebuah petuk, sebuah gong besar, sebuah gong penyentak , sebuah gong oncer, dan dua buah lelontek.
+Menurut cerita, gendang beleq dahulu dimainkan bila ada pesta-pesta yang diselenggarakan oleh pihak kerajaan. Bila terjadi perang gendang ini berfungsi sebagai penyemangat prajurit yang ikut berperang.
+
+"
+                android:layout_height="150dp"
+        />
+    </ScrollView>
+
+
+</RelativeLayout>
+

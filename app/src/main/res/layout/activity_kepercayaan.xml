@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"
+                tools:context="com.example.bibdev.sejarahlombok.AlbumActivity">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kepercayaan suku Sasak"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:textSize="30dp"
+            android:textColor="#000"
+            android:textStyle="italic|bold" />
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="100dp"
+                android:typeface="sans"
+                android:gravity="center"
+                android:background="#b1878484"
+                android:textColor="#000"
+                android:justificationMode="none"
+                android:text="Boda adalah nama dari kepercayaan asli Suku Sasak, beberapa menyebutnya Sasak Boda. Walapun ada kesamaan pelafalan dengan Buddha, Boda tidak memiliki kesamaan dan hubungan dengan Buddhisme.
+Orang Sasak yang menganut kepercayaan Boda tidak mengenal dan mengakui Sidharta Gautama (Sang Buddha) sebagai figur utama. Agama Boda orang Sasak ini justru ditandai dengan penyembahan roh-roh leluhur mereka sendiri dan juga percaya terhadap berbagai.
+Kerajaan Majapahit masuk ke Lombok dan membawa serta budayanya. Hindu-Buddha Majapahit pun kemudian dikenal oleh Suku Sasak. Di akhir abad ke 16 hingga abad ke 17 awal perkembangan agama Islam menyentuh pulau Lombok. Salah satunya karena peran Sunan Giri. Setelah perkembangan Islam, kepercayaan Suku Sasak sebagian berubah dari Hindu menjadi penganut Islam.
+Berdasarkan sistem kepercayaan Suku Sasak pada masa-masa selanjutnya, kemudian dapat diklasifikasikan tiga kelompok utama; Boda, Wetu Telu, dan Islam (Wetu Lima).
+Penganut Boda sebagai komunitas kecil yang berdiam di wilayah pegunungan utara dan di lembah-lembah pegunungan Lombok bagian selatan. Kelompok Boda ini konon adalah orang-orang Sasak yang dari segi kesukuan, budaya, dan bahasa menganut kepercayaan asli. Mereka menyingkir ke daerah pegunungan melepaskan diri dari islamisasi di Lombok.
+Sedangkan Agama Wetu telu awalnya memiliki ciri sama dengan Hindu-Bali dan Kejawen. Di antara unsur-unsur umum, peran leluhur begitu menonjol. Hal itu didasarkan pada pandangan yang berakar pada kepercayaan tentang kehidupan senantiasa mengalir.
+Pada perkembangannya Wetu telu justru lebih dekat dengan Islam. Konon, sekarang hampir semua desa suku Sasak sudah menganut Agama Islam lima waktu dan meninggalkan Wetu telu sepenuhnya. Sementara sinkretisme Islam-Wetu telukini berkembang terbatas di beberapa bagian utara dan selatan Pulau Lombok. Meliputi Bayan, dataran tinggi Sembalun, Suranadi di Lombok Timur, Pujut di Lombok Tengah, dan Tanjung di Lombok Barat.
+Istilah Islam-Wetu Telu diberikan karena penganut kepercayaan ini beribadah tiga kali di bulan puasa, yaitu waktu Magrib, Isya, dan waktu Subuh. Di luar bulan puasa, mereka hanya satu hari dalam seminggu melakukan ibadah, yaitu pada hari Kamis dan atau Jumat, meliputi waktu Asar. Untuk urusan ibadah lainnya biasanya dilakukan oleh pemimpin agama mereka; para kiai dan penghulu.
+Para penganut Islam-Wetu telu membangun Masjid (tempat ibadah) mereka dengan gaya arsitektur khas Suku Sasak; dari kayu dan bambu, dengan bagian atapnya terbuat dari jenis alang-alang atau sirap dari bambu.
+Dengan denah berbentuk persegi empat dan bagian atap seperti piramid bertumpang yang disangga dengan tiang-tiang, beberapa ahli menilai arsitektur masjid ini mirip dengan Arsitektur masjid lama di Ternate dan Tidore.
+"
+                android:layout_height="wrap_content"
+        />
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/activity_main"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg"
+                tools:context="com.example.bibdev.sejarahlombok.AlbumActivity">
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bahasa Sasak"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:textStyle="italic|bold" />
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="100dp"
+                android:typeface="sans"
+                android:gravity="center"
+                android:textColor="#000"
+                android:background="#b1878484"
+                android:justificationMode="none"
+                android:text="Bahasa Orang Sasak
+Bahasa Sasak, terutama yang berkenaan dengan sistem aksaranya, memiliki kedekatan dengan sistem aksara Jawa-Bali, sama-sama menggunakan aksara Ha-Na-Ca-Ra-Ka. Kendati demikian, secara pelafalan, bahasa Sasak ternyata lebih memiliki kedekatan dengan bahasa Bali.
+Etnologi: Cabang dari antropologi, yang mempelajari berbagai suku bangsa beserta aspek kebudayaannya, dan hubungan antara satu bangsa dengan bangsa lainnya. Etnis: Suku bangsa. Etnolog: Adalah orang yang ahli etnologi.
+Menurut penelitian para etnolog yang mengumpulkan hampir semua bahasa di dunia, menggolongkan bahasa Sasak kedalam rumbun bahasa Austronesia Malayu-Polinesian, Juga ada kesamaan ciri dengan rumpun bahasa Sunda-Sulawesi, dan Bali-Sasak.
+Bahasa Sasak yang digunakan di Lombok secara dialek dan lingkup kosakatanya dapat digolongkan kedalam beberapa bahasa sesuai dengan wilayah penuturnya; Mriak-Mriku (Lombok Selatan), Meno-Mene dan Ngeno-Ngene (Lombok Tengah), Ngeto-Ngete (Lombok Tenggara), dan Kuto-Kute (Lombok Utara).
+"
+                android:layout_height="wrap_content"
+        />
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ThreeActivity">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sejarah Asal Usul Nama Lombok | Cerita Rakyat Sasak Lombok"
+            android:id="@+id/textView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="18dp"
+            android:textSize="20dp"
+            android:background="@color/colorAccent"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textStyle="italic|bold" />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:layout_marginStart="0dp">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="100dp"
+                android:typeface="sans"
+                android:background="#b1878484"
+                android:gravity="center"
+                android:textColor="#000"
+                android:justificationMode="none"
+                android:text="
+Sejarah Asal Usul Nama Lombok | Cerita Rakyat Suku Sasak Lombok - Pulau Lombok luasnya sepertiga dari luas Pulau Sumbawa. Namun, penduduk Nusa Tenggara Barat yang berjumlah lebih dari tiga juta, dua pertiganya tinggal di Pulau Lombok. Hal ini terjadi karena Pulau Lombok lebih subur dari Pulau Sumbawa. Penduduk Pulau Lombok adalah orang Sasak. Mereka sebagian besar memeluk agama Islam.
+
+Asal Kata Lombok dan Sasak
+
+Lombok dan Sasak adalah dua nama yang tidak bisa dipisahkan. Nama Lombok untuk sebutan pulaunya, nama Sasak untuk sebutan suku bangsanya. Lombok berasal dari bahasa Sasak; “lomboq” artinya “lurus”. Sasak sebenarnya berasal dari “sak-sak” yang artinya “perahu bercadik”.
+Namun, banyak orang yang salah mengerti. Lombok diartikan “cabe” sehingga ada yang mengartikan pulau Lombok sebagai “pulau pedas”. Padahal cabe dalam bahasa Sasak adalah “sebia” (dibaca “sebie”)
+Cerita di bawah ini akan menjelaskan asal usul mengapa disebut Lombok dan Sasak. Nama Lombok dalam berbagai cerita lisan maupun tertulis dalam takepan lontar adalah salah satu nama dari Pulau Lombok. Nama lain yang sering disebut adalah pulau “Meneng” yang berarti “sepi”. Ada yang menyebut “Gumi Sasak”, ada yang menyebut “Gumi (bumi) Selaparang”, sesuai dengan nama salah satu kerajaan yang terkenal di Lombok pada zaman dulu, yaitu kerajaan Selaparang.
+
+Sejarah Asal Usul Nama Lombok
+
+Pulau Lombok sejak zaman kerajaan Majapahit sudah terkenal. Hal ini terbukti dengan disebutnya dalam buku Negarakertagama yang ditulis oleh Empu Prapanca. Negarakertagama ditemukan juga di Lombok.
+Legenda masyarakat Sasak menceritakan bahwa pada zaman dahulu kala, kerajaan Mataram Lama di Jawa Tengah dipimpin oleh seorang raja wanita bernama Pramudawardhani yang kawin dengan Rakai Pikatan. Konon sang Permaisuri adalah seorang ahli pemerintahan, sedangkan sang suami ahli peperangan. Kekuasaannya ke barat sampai ke Pulau Sumatra, ke timur sampai ke Pulau Flores. Ketika itulah banyak rakyat Mataram pergi berlayar ke arah timur melalui Laut Jawa menggunakan perahu bercadik.
+Tujuan mereka berlayar tidak diketahui secara pasti. Apakah untuk memperluas kekuasaan atau menghindari kerja berat, karena pada saat itu Candi Borobudur, Candi Prambanan, dan Candi Kalasan sedang dibangun oleh sang raja.
+Demikianlah mereka berlayar lurus ke timur dan mendarat di sebuah pelabuhan. Pelabuhan itu diberi nama Lomboq (lurus), untuk mengenang perjalanan panjang.
+
+Mereka lurus ke timur tersebut. Selanjutnya, Lomboq kini tidak hanya menjadi nama pelabuhan tempat perahu itu mendarat, tetapi juga menjadi nama pulau Lomboq yang kemudian berubah menjadi Lombok. Mereka berlayar menggunakan perahu bercadik yang disebut “sak-sak”, dan jadilah mereka dinamakan orang Sak-Sak Yang berarti orang yang datang menggunakan perahu. Kemudian, mereka membaur dengan penduduk asli. Pada waktu itu, di Pulau Lombok telah ada kerajaan yang disebut kerajaan Kedarao (mungkin sekarang Sembalun dan Sambelia)
+Mereka kemudian mendirikan kerajaan Lombok yang berpusat di Labuhan Lombok sekarang. Kerajaan Lombok menjadi besar, berkembang dalam lima abad, hingga dikenal di seluruh Nusantara, sebagai pelabuhan yang dikunjungi oleh para pedagang dari Tuban, Gresik, Makasar, Banjarmasin, Ternate, Tidore, bahkan Malaka. Jika datang ke Lombok, orang Malaka membeli beras, tarum, dan kayu sepang.
+Kerajaan Lombok kemudian dikalahkan oleh kerajaan Majapahit. Raja dan permaisurinya lari ke gunung dan mendirikan kerajaan baru Yang diberi nama Watuparang yang kemudian terkenal dengan nama kerajaan Selaparang.
+Kapan nama Lomboq berubah menjadi Lombok, dan nama Sak-Sak berubah menjadi Sasak tidak diketahui secara pasti. Yang jelas sekarang pulaunya terkenal dengan nama Pulau Lombok dan suku bangsanya terkenal dengan nama suku Sasak. Nama Selaparang Sudah diabadikan menjadi nama sebuah jalan protokol dan nama lapangan terbang di Mataram, ibu kota provinsi Nusa Tenggara Barat."
+                android:layout_height="wrap_content"
+        />
+    </ScrollView>
+
+
+</RelativeLayout>
+
